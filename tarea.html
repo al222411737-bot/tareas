@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestor de tareas</title>
+    <link rel="stylesheet" href="estilos.css">
+    <script src="tareas.js" defer></script>
+</head>
+<body>
+    <main class="contenedor">
+        <h1>Gestor de tareas</h1>
+        <p>Organiza tus actividades diarias.</p>
+
+        <form id="formTareas">
+            <label for="descripcion">Nueva actividad:</label>
+            <input type="text" id="descripcion"
+                   placeholder="Escribe una tarea" required>
+
+            <button type="submit">Agregar tarea</button>
+        </form>
+
+        <h2>Mis actividades</h2>
+        <ul id="listaTareas"></ul>
+        <p id="resumen"></p>
+    </main>
+</body>
+</html>
